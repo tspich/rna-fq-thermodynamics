@@ -1,0 +1,10 @@
+name: inosine-fq
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - viennarna=2.7.2     # modified-base (inosine) support + salt corrections
+  - numpy
+  - pandas
+  - scipy
